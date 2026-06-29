@@ -10,6 +10,7 @@ export const translations = {
       calculator: "Calculadora",
       faq: "FAQ",
       security: "Seguridad",
+      privacy: "Privacidad",
       options: "Opciones",
       advantages: "Ventajas",
       how: "Cómo funciona",
@@ -448,7 +449,7 @@ export const translations = {
       contact: "Contacto",
       rights: "Todos los derechos reservados.",
       disclaimer:
-        "Préstamo Hub es una plataforma de comparación e información. No es un prestamista. Los préstamos son ofrecidos por proveedores externos sujetos a sus requisitos de elegibilidad y políticas de crédito.",
+        "Préstamo Hub es una plataforma de comparación e información. Los préstamos son ofrecidos por proveedores externos sujetos a sus requisitos de elegibilidad y políticas de crédito.",
     },
   },
   en: {
@@ -457,6 +458,7 @@ export const translations = {
       calculator: "Calculator",
       faq: "FAQ",
       security: "Security",
+      privacy: "Privacy",
       options: "Options",
       advantages: "Why compare",
       how: "How it works",
@@ -891,7 +893,7 @@ export const translations = {
       contact: "Contact",
       rights: "All rights reserved.",
       disclaimer:
-        "Préstamo Hub is a comparison and information platform. It is not a lender. Loans are offered by third-party providers subject to their eligibility requirements and credit policies.",
+        "Préstamo Hub is a comparison and information platform. Loans are offered by third-party providers subject to their eligibility requirements and credit policies.",
     },
   },
 } as const

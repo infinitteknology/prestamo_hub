@@ -101,9 +101,6 @@ export function SiteFooter() {
             <p className="text-base font-semibold">
               {lang === "es" ? "Contactanos" : "Contact us"}
             </p>
-            <p className="mt-5 text-sm font-medium text-white/80">
-              {t.footer.contact}
-            </p>
 
             <div className="mt-5 space-y-4 text-sm text-white/70">
               {contactItems.map((item) => {
@@ -135,8 +132,8 @@ export function SiteFooter() {
               <p className="font-semibold text-white/90">Legalflow, S.A. de C.V.</p>
               <p className="mt-2 leading-6">
                 {lang === "es"
-                  ? "Plataforma de comparacion e informacion financiera para usuarios en Mexico."
-                  : "Comparison and financial information platform for users in Mexico."}
+                  ? "Legalflow, S.A. de C.V. es una empresa de tecnología con sede en México que opera Préstamo Hub, una plataforma de comparación de préstamos personales. Préstamo Hub permite a los usuarios comparar ofertas de préstamos de distintos proveedores en México."
+                  : "Legalflow, S.A. de C.V. is a Mexico-based fintech technology company operating Préstamo Hub, a loan comparison platform in Mexico. The platform helps users compare personal loan offers, including estimated amounts, costs, and repayment terms, from multiple third-party lenders."}
               </p>
             </div>
           </div>

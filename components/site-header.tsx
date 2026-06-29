@@ -63,8 +63,9 @@ export function SiteHeader() {
       { id: "faq", href: `${home}/preguntas`, label: t.nav.faq },
       { id: "blog", href: `${home}/blog`, label: t.nav.blog },
       { id: "security", href: `${home}/seguridad`, label: t.nav.security },
+      { id: "privacy", href: `${home}/privacidad`, label: t.nav.privacy },
     ] as const
-  }, [home, t.nav.blog, t.nav.calculator, t.nav.faq, t.nav.home, t.nav.security])
+  }, [home, t.nav.blog, t.nav.calculator, t.nav.faq, t.nav.home, t.nav.security, t.nav.privacy])
 
   const active = useMemo(() => {
     if (!pathname) return ""
@@ -73,6 +74,7 @@ export function SiteHeader() {
     if (pathname.startsWith(`${home}/preguntas`)) return "faq"
     if (pathname.startsWith(`${home}/blog`)) return "blog"
     if (pathname.startsWith(`${home}/seguridad`)) return "security"
+    if (pathname.startsWith(`${home}/privacidad`)) return "privacy"
     return ""
   }, [home, pathname])
 

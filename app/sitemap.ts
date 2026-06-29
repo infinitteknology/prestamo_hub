@@ -85,6 +85,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.65,
       alternates: langLinks("/seguridad"),
     },
+    {
+      url: `${SITE_URL}/es/privacidad`,
+      lastModified,
+      changeFrequency: "weekly",
+      priority: 0.7,
+      alternates: langLinks("/privacidad"),
+    },
+    {
+      url: `${SITE_URL}/en/privacidad`,
+      lastModified,
+      changeFrequency: "weekly",
+      priority: 0.6,
+      alternates: langLinks("/privacidad"),
+    },
   ]
 
   for (const post of blogPosts) {
