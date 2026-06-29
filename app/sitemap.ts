@@ -93,14 +93,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
       {
         url: `${SITE_URL}/es${path}`,
         lastModified: new Date(post.date),
-        changeFrequency: "monthly",
+        changeFrequency: "weekly",
         priority: 0.6,
         alternates: langLinks(path),
       },
       {
         url: `${SITE_URL}/en${path}`,
         lastModified: new Date(post.date),
-        changeFrequency: "monthly",
+        changeFrequency: "weekly",
         priority: 0.6,
         alternates: langLinks(path),
       },
