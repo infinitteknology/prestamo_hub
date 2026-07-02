@@ -111,6 +111,7 @@ export default function RootLayout({
         />
         {children}
         {process.env.NODE_ENV === 'production' && <Analytics />}
+        <SpeedInsights />
       </body>
     </html>
   )
