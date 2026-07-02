@@ -59,7 +59,7 @@ export function SiteHeader() {
   const links = useMemo(() => {
     return [
       { id: "home", href: home, label: t.nav.home },
-      { id: "calculator", href: `${home}/calculadora`, label: t.nav.calculator },
+      { id: "calculator", href: `${home}/calculadora-creditos-mexico`, label: t.nav.calculator },
       { id: "faq", href: `${home}/preguntas`, label: t.nav.faq },
       { id: "blog", href: `${home}/blog`, label: t.nav.blog },
       { id: "security", href: `${home}/seguridad`, label: t.nav.security },

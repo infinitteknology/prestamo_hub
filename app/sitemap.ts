@@ -44,18 +44,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
       alternates: langLinks("/blog"),
     },
     {
-      url: `${SITE_URL}/es/calculadora`,
+      url: `${SITE_URL}/es/calculadora-creditos-mexico`,
       lastModified,
       changeFrequency: "weekly",
       priority: 0.85,
-      alternates: langLinks("/calculadora"),
+      alternates: langLinks("/calculadora-creditos-mexico"),
     },
     {
-      url: `${SITE_URL}/en/calculadora`,
+      url: `${SITE_URL}/en/calculadora-creditos-mexico`,
       lastModified,
       changeFrequency: "weekly",
       priority: 0.75,
-      alternates: langLinks("/calculadora"),
+      alternates: langLinks("/calculadora-creditos-mexico"),
     },
     {
       url: `${SITE_URL}/es/preguntas`,

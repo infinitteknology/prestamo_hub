@@ -195,9 +195,9 @@ export const translations = {
       ],
     },
     calc: {
-      title: "Calcula tu préstamo",
+      title: "Calculadora de préstamos en México",
       subtitle:
-        "Estima tu pago aproximado. Es solo una referencia; los costos finales los define cada proveedor.",
+        "Calcula tu préstamo personal en México, estima pagos, CAT, comisiones, IVA y seguro. Compara opciones antes de solicitar.",
       simpleTitle: "Calculadora simple",
       simpleSubtitle:
         "Ideal para la mayoría de usuarios. Estima interés total y pago total con monto, plazo y tasa anual.",
@@ -638,9 +638,9 @@ export const translations = {
       ],
     },
     calc: {
-      title: "Calculate your loan",
+      title: "Mexico Loan Calculator",
       subtitle:
-        "Estimate your approximate payment. This is a reference only; final costs are set by each provider.",
+        "Calculate personal loans in Mexico, estimate payments, CAT, fees, IVA and insurance. Compare options before applying.",
       simpleTitle: "Simple Calculator",
       simpleSubtitle:
         "Best for most users. Estimate total interest and total repayment from amount, term and annual rate.",

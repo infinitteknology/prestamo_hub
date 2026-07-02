@@ -12,7 +12,7 @@ import {
 import { useLang } from "@/components/lang-provider"
 import { GooglePlayButton } from "@/components/google-play-button"
 
-const YOUTUBE_PLACEHOLDER_URL = "https://www.youtube.com/"
+const YOUTUBE_PLACEHOLDER_URL = "https://youtu.be/oeqO2HpuOMA"
 
 export function Hero() {
   const { t } = useLang()

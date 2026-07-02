@@ -558,7 +558,7 @@ export const blogPosts: BlogPost[] = [
           type: "callout",
           variant: "success",
           text: "¿Quieres probar números reales antes de solicitar? Abre nuestra calculadora de préstamos y estima CAT, comisiones, IVA, seguros y pago total en un solo lugar.",
-          slug: "calculadora",
+          slug: "calculadora-creditos-mexico",
           hrefLabel: "Ir a la calculadora",
         },
 
@@ -670,7 +670,7 @@ export const blogPosts: BlogPost[] = [
           type: "callout",
           variant: "success",
           text: "Want to test a real scenario before you apply? Open our loan calculator to estimate CAT, fees, IVA, insurance and total repayment in one place.",
-          slug: "calculadora",
+          slug: "calculadora-creditos-mexico",
           hrefLabel: "Open the calculator",
         },
 
